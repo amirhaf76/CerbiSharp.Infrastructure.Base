@@ -11,7 +11,7 @@ namespace CerbiSharp.Infrastructure.BaseInfrastructure.Selenium.Core
 
             string pathAndNameFile = Path.Combine(path, $"{fileName}.png");
 
-            screenshot.SaveAsFile(pathAndNameFile, ScreenshotImageFormat.Png);
+            screenshot.SaveAsFile(pathAndNameFile);
         }
 
 

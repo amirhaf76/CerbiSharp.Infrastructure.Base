@@ -20,6 +20,10 @@ namespace CerbiSharp.Infrastructure.BaseInfrastructure.Selenium.Browsers
 
         public string BrowserDirectory { get; set; }
 
+        public IWebDriver WebDriver => _webDriver;
+
+        public BrowserType Type => _browser;
+
         public Actions Actions { get; private set; }
 
         public WebDriverWait WebDriverWait
@@ -63,6 +67,7 @@ namespace CerbiSharp.Infrastructure.BaseInfrastructure.Selenium.Browsers
 
                     //new DriverManager().SetUpDriver(new FirefoxConfig(), VersionResolveStrategy.MatchingBrowser);
                     _webDriver = new FirefoxDriver();
+
                     break;
             }
 

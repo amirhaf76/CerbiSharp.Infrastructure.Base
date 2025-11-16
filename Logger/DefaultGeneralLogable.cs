@@ -1,4 +1,4 @@
-﻿namespace CerbiSharp.Infrastructure.BaseInfrastructure.Logger
+﻿namespace CerbiSharp.Infrastructure.Base.Logger
 {
     public class DefaultGeneralLogable : IGeneralLogable
     {

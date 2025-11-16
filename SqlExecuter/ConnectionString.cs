@@ -1,4 +1,4 @@
-﻿namespace CerbiSharp.Infrastructure.BaseInfrastructure.SqlExecuter
+﻿namespace CerbiSharp.Infrastructure.Base.SqlExecuter
 {
     public class ConnectionString
     {

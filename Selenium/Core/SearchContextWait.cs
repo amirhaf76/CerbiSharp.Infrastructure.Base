@@ -1,7 +1,7 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
-namespace CerbiSharp.Infrastructure.BaseInfrastructure.Selenium.Core
+namespace CerbiSharp.Infrastructure.Base.Selenium.Core
 {
     public class SearchContextWait : DefaultWait<ISearchContext>
     {

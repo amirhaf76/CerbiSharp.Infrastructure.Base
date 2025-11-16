@@ -1,9 +1,8 @@
-﻿using CerbiSharp.Infrastructure.BaseInfrastructure.Net;
-using System.Net.Http.Headers;
+﻿using CerbiSharp.Infrastructure.Base.Net;
 using System.Net.Http.Json;
 using System.Text.Json;
 
-namespace CerbiSharp.Infrastructure.BaseInfrastructure.Api
+namespace CerbiSharp.Infrastructure.Base.Api
 {
     public class ApiBase : ClientApiIntraction
     {

@@ -1,4 +1,4 @@
-﻿namespace CerbiSharp.Infrastructure.BaseInfrastructure.UsefulDtos
+﻿namespace CerbiSharp.Infrastructure.Base.UsefulDtos
 {
     public interface IWebUserAccountDto : ICloneable
     {

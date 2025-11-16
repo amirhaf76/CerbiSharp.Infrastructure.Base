@@ -1,8 +1,7 @@
-﻿using CerbiSharp.Infrastructure.BaseInfrastructure.Tools;
-using System.ComponentModel;
+﻿using CerbiSharp.Infrastructure.Base.Tools;
 using System.Net;
 
-namespace CerbiSharp.Infrastructure.BaseInfrastructure.Net
+namespace CerbiSharp.Infrastructure.Base.Net
 {
     public class ApiResponse<T> : ApiResponse
     {

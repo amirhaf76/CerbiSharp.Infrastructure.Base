@@ -1,6 +1,6 @@
 ﻿using System.Security.Cryptography;
 
-namespace CerbiSharp.Infrastructure.BaseInfrastructure.CryptoGraphy
+namespace CerbiSharp.Infrastructure.Base.CryptoGraphy
 {
     public class CryptoHMacSHA256
     {

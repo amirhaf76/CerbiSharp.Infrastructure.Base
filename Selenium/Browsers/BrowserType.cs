@@ -1,4 +1,4 @@
-﻿namespace CerbiSharp.Infrastructure.BaseInfrastructure.Selenium.Browsers
+﻿namespace CerbiSharp.Infrastructure.Base.Selenium.Browsers
 {
     public enum BrowserType
     {

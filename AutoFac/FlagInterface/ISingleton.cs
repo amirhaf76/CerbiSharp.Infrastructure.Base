@@ -1,4 +1,4 @@
-﻿namespace CerbiSharp.Infrastructure.BaseInfrastructure.AutoFac.FlagInterface
+﻿namespace CerbiSharp.Infrastructure.Base.AutoFac.FlagInterface
 {
     public interface ISingleton
     {

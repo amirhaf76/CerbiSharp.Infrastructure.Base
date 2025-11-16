@@ -10,14 +10,14 @@ namespace CerbiSharp.Infrastructure.Base.Api
         {
         }
 
-        public static ApiBase CreateApiBase(ClientApiIntraction clientApiInteraction)
+        public static ApiBase CreateApiBase(ClientApiIntraction clientApiIntraction)
         {
             var apiBase = new ApiBase();
 
-            apiBase.DomainUrl = clientApiInteraction.DomainUrl;
-            apiBase.ClientId = clientApiInteraction.ClientId;
-            apiBase.DeviceId = clientApiInteraction.DeviceId;
-            apiBase.JwtToken = clientApiInteraction.JwtToken;
+            apiBase.DomainUrl = clientApiIntraction.DomainUrl;
+            apiBase.ClientId = clientApiIntraction.ClientId;
+            apiBase.DeviceId = clientApiIntraction.DeviceId;
+            apiBase.JwtToken = clientApiIntraction.JwtToken;
 
             return apiBase;
         }

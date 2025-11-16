@@ -1,7 +1,6 @@
 ﻿using System.Text;
-using System.Text.RegularExpressions;
 
-namespace CerbiSharp.Infrastructure.BaseInfrastructure.Tools
+namespace CerbiSharp.Infrastructure.Base.Tools
 {
     public static class Helper
     {

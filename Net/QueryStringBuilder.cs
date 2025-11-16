@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using System.Web;
 
-namespace CerbiSharp.Infrastructure.BaseInfrastructure.Net
+namespace CerbiSharp.Infrastructure.Base.Net
 {
     public class QueryStringBuilder
     {

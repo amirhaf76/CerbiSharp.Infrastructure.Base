@@ -1,7 +1,7 @@
-﻿using System.Data;
-using Microsoft.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
+using System.Data;
 
-namespace CerbiSharp.Infrastructure.BaseInfrastructure.SqlExecuter
+namespace CerbiSharp.Infrastructure.Base.SqlExecuter
 {
     public abstract class SqlQueryExecuter<T>
     {

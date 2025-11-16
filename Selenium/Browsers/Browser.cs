@@ -1,5 +1,5 @@
-﻿using CerbiSharp.Infrastructure.BaseInfrastructure.Selenium.Core;
-using CerbiSharp.Infrastructure.BaseInfrastructure.Tools;
+﻿using CerbiSharp.Infrastructure.Base.Selenium.Core;
+using CerbiSharp.Infrastructure.Base.Tools;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
@@ -9,7 +9,7 @@ using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
 using WebDriverManager.Helpers;
 
-namespace CerbiSharp.Infrastructure.BaseInfrastructure.Selenium.Browsers
+namespace CerbiSharp.Infrastructure.Base.Selenium.Browsers
 {
     public class Browser
     {

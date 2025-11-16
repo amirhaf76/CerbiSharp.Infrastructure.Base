@@ -1,4 +1,4 @@
-﻿namespace CerbiSharp.Infrastructure.BaseInfrastructure.Net
+﻿namespace CerbiSharp.Infrastructure.Base.Net
 {
     public interface IClientApiIntraction
     {

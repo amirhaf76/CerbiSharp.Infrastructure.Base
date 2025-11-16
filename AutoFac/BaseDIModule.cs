@@ -1,7 +1,7 @@
 ﻿using Autofac;
-using CerbiSharp.Infrastructure.BaseInfrastructure.AutoFac.FlagInterface;
+using CerbiSharp.Infrastructure.Base.AutoFac.FlagInterface;
 
-namespace CerbiSharp.Infrastructure.BaseInfrastructure.AutoFac
+namespace CerbiSharp.Infrastructure.Base.AutoFac
 {
     public abstract class BaseDIModule<T> : Module
     {

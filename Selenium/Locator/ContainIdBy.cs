@@ -1,7 +1,7 @@
 ﻿using OpenQA.Selenium;
 
 
-namespace CerbiSharp.Infrastructure.BaseInfrastructure.Selenium.Locator
+namespace CerbiSharp.Infrastructure.Base.Selenium.Locator
 {
     public class ContainIdBy : By
     {

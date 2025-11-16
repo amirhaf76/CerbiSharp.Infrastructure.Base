@@ -1,7 +1,7 @@
-﻿using CerbiSharp.Infrastructure.BaseInfrastructure.RegexHelper;
+﻿using CerbiSharp.Infrastructure.Base.RegexHelper;
 using System.Text.RegularExpressions;
 
-namespace CerbiSharp.Infrastructure.BaseInfrastructure.Tools
+namespace CerbiSharp.Infrastructure.Base.Tools
 {
     public static class HelperExtension
     {
@@ -141,7 +141,8 @@ namespace CerbiSharp.Infrastructure.BaseInfrastructure.Tools
             if (nthNumberFromLeft == 0)
             {
                 return number;
-            };
+            }
+            ;
 
             double shiftedToLeftNumber = ShiftNumberToRight(number, nthNumberFromLeft, numberLength);
 

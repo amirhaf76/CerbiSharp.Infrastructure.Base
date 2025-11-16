@@ -1,4 +1,4 @@
-﻿namespace CerbiSharp.Infrastructure.BaseInfrastructure.SqlExecuter.Sample
+﻿namespace CerbiSharp.Infrastructure.Base.SqlExecuter.Sample
 {
     internal class BasicInfoQueryResult
     {

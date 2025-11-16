@@ -1,12 +1,7 @@
-﻿using CerbiSharp.Infrastructure.BaseInfrastructure.Generator;
-using CerbiSharp.Infrastructure.BaseInfrastructure.Tools;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CerbiSharp.Infrastructure.Base.Generator;
+using CerbiSharp.Infrastructure.Base.Tools;
 
-namespace CerbiSharp.Infrastructure.BaseInfrastructure.UsefulDtos
+namespace CerbiSharp.Infrastructure.Base.UsefulDtos
 {
     public class WebUserAccountDto : IWebUserAccountDto, ICloneable
     {

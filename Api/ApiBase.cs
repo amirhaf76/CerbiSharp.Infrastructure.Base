@@ -1,9 +1,8 @@
-﻿using CerbiSharp.Infrastructure.BaseInfrastructure.Net;
-using System.Net.Http.Headers;
+﻿using CerbiSharp.Infrastructure.Base.Net;
 using System.Net.Http.Json;
 using System.Text.Json;
 
-namespace CerbiSharp.Infrastructure.BaseInfrastructure.Api
+namespace CerbiSharp.Infrastructure.Base.Api
 {
     public class ApiBase : ClientApiIntraction
     {
@@ -11,14 +10,14 @@ namespace CerbiSharp.Infrastructure.BaseInfrastructure.Api
         {
         }
 
-        public static ApiBase CreateApiBase(ClientApiIntraction clientApiIntraction)
+        public static ApiBase CreateApiBase(ClientApiIntraction clientApiInteraction)
         {
             var apiBase = new ApiBase();
 
-            apiBase.DomainUrl = clientApiIntraction.DomainUrl;
-            apiBase.ClientId = clientApiIntraction.ClientId;
-            apiBase.DeviceId = clientApiIntraction.DeviceId;
-            apiBase.JwtToken = clientApiIntraction.JwtToken;
+            apiBase.DomainUrl = clientApiInteraction.DomainUrl;
+            apiBase.ClientId = clientApiInteraction.ClientId;
+            apiBase.DeviceId = clientApiInteraction.DeviceId;
+            apiBase.JwtToken = clientApiInteraction.JwtToken;
 
             return apiBase;
         }

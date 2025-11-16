@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace CerbiSharp.Infrastructure.BaseInfrastructure.SqlExecuter
+namespace CerbiSharp.Infrastructure.Base.SqlExecuter
 {
     public class ConnectionStringBuilder
     {

@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium;
 
-namespace CerbiSharp.Infrastructure.BaseInfrastructure.Selenium.Core
+namespace CerbiSharp.Infrastructure.Base.Selenium.Core
 {
     public class SeleniumHelper
     {

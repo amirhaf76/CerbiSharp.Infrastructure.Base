@@ -1,6 +1,6 @@
-﻿using CerbiSharp.Infrastructure.BaseInfrastructure.Tools;
+﻿using CerbiSharp.Infrastructure.Base.Tools;
 
-namespace CerbiSharp.Infrastructure.BaseInfrastructure.Net
+namespace CerbiSharp.Infrastructure.Base.Net
 {
     public class ApiErrorResponseDto : ICloneable
     {

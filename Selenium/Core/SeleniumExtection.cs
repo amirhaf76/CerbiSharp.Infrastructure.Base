@@ -1,12 +1,12 @@
-﻿using CerbiSharp.Infrastructure.BaseInfrastructure.JavaScript;
-using CerbiSharp.Infrastructure.BaseInfrastructure.Tools;
+﻿using CerbiSharp.Infrastructure.Base.JavaScript;
+using CerbiSharp.Infrastructure.Base.Tools;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
 using System.Collections.ObjectModel;
 using System.Globalization;
 using System.Text.RegularExpressions;
 
-namespace CerbiSharp.Infrastructure.BaseInfrastructure.Selenium.Core
+namespace CerbiSharp.Infrastructure.Base.Selenium.Core
 {
     public static class SeleniumExtection
     {

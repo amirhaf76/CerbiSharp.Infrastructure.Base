@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http.Headers;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Net.Http.Headers;
 
-namespace CerbiSharp.Infrastructure.BaseInfrastructure.Net
+namespace CerbiSharp.Infrastructure.Base.Net
 {
     public class ClientApiIntraction : IClientApiIntraction
     {
